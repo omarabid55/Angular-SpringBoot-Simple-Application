@@ -1,3 +1,3 @@
 # AngularAddCustomers
 
-![Alt text](AngularSpringBootSimpleApplication/AngularAddCustomers/src/assets/Screenshot from angular.png?raw=true "Screenshot from angular")
+![Alt text](Angular-SpringBoot-Simple-Application/AngularAddCustomers/src/assets/POST request.png?raw=true "Screenshot from angular")
