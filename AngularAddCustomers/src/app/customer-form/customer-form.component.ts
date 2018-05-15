@@ -1,0 +1,32 @@
+import {Component, OnInit} from '@angular/core';
+import {FormsModule} from '@angular/forms';
+
+import {Customer} from '../customer.interface';
+import {CustomerService} from '../customer.service';
+
+@Component({
+  selector: 'customer-form',
+  templateUrl: './customer-form.component.html',
+  styleUrls: ['./customer-form.component.css']
+})
+export class CustomerFormComponent implements OnInit {
+
+  customer: Customer = {name: '', age: 0, address: ''};
+
+  constructor(private customerService: CustomerService) {}
+
+  ngOnInit() {
+  }
+
+  onSubmit() {
+    this.customerService.createCustomer(this.customer).subscribe(
+      value => {
+        console.log('[POST] create Customer successfully', value);
+      }, error => {
+        console.log('FAIL to create Customer!');
+      },
+      () => {
+        console.log('POST Customer - now completed.');
+      });
+  }
+}

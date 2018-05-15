@@ -1,0 +1,6 @@
+/home/omar/workspace/SpringRestObject/src/main/java/com/javasampleapproach/getobject/model/Customer.java
+/home/omar/workspace/SpringRestObject/src/main/java/com/javasampleapproach/getobject/repository/CustomerRepository.java
+/home/omar/workspace/SpringRestObject/src/main/java/com/javasampleapproach/getobject/model/Address.java
+/home/omar/workspace/SpringRestObject/src/main/java/com/javasampleapproach/getobject/controller/CustomerController.java
+/home/omar/workspace/SpringRestObject/src/main/java/com/javasampleapproach/getobject/service/CustomerService.java
+/home/omar/workspace/SpringRestObject/src/main/java/com/javasampleapproach/getobject/SpringRestObjectApplication.java
